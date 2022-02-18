@@ -1,0 +1,28 @@
+{
+  "name": "goit-nodejs-hw-01-cli-app",
+  "version": "1.0.0",
+  "description": "Node.js Homework. Module 1.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bender148/goit-nodejs-hw-01-cli-app.git"
+  },
+  "author": "Ivan Suprun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bender148/goit-nodejs-hw-01-cli-app/issues"
+  },
+  "homepage": "https://github.com/Bender148/goit-nodejs-hw-01-cli-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "commander": "^7.2.0",
+    "uuid": "^8.3.2"
+  }
+}
