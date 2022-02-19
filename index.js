@@ -1,10 +1,10 @@
-const { Command } = require("commander");
+const commander = require("commander");
 const contactsMethods = require("./contacts.js");
 
-const program = new Command();
+const program = new commander.Command();
 
 program
-  .addOption(new Option("-a, --action <type>", "choose action").choices(["list", "get", "remove", "add"]))
+  .addOption(new commander.Option("-a, --action <type>", "choose action").choices(["list", "get", "remove", "add"]))
   .option("-i, --id <type>", "user id")
   .option("-n, --name <type>", "user name")
   .option("-e, --email <type>", "user email")
